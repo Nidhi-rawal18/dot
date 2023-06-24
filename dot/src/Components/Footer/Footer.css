@@ -1,0 +1,24 @@
+.serv{
+    color: #FFFFFF;
+    font-family: "Montserrat" ,Sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.foot{
+    color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400
+}
+.ico{
+    color: #AAAAAA;
+    font-size: 16px;
+}
+@media screen and  (max-width: 800px){
+   .ico{
+    font-size: 13px;
+   } 
+   .foot{
+    font-size: 12px;
+   }
+}

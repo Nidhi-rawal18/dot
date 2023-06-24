@@ -1,0 +1,131 @@
+#body{
+  font-family: Quicksand;
+}
+.need1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #202020;
+  
+}
+.ad1{
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(0, 217, 166);
+  
+}
+.addres{
+    border: 1px solid #202020;
+    padding: 60px;
+    
+
+}
+.locat{
+    font-size: 80px;
+
+}
+.addr{
+   
+    font-size: 29px;
+    font-weight: 500;
+}
+.addp{
+  
+    font-size: 16px;
+    font-weight: 300;
+}
+.having{
+    color: #202020;
+    font-size: 35px;
+    font-weight: 600;
+  
+}
+.let{
+    
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(0, 217, 166);
+}
+.face{
+    background: #3b5998;
+    padding:6px 10px 12px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 28px ;
+   }
+   .what{
+    background: #25d366;
+    padding:6px 10px 12px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 28px ;
+   }
+   .insta{
+    background: #262626;
+    padding:6px 10px 12px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 28px ;
+   }
+   .twit{
+    background:#1da1f2;
+      padding:6px 10px 12px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 28px ;
+   }
+   .link{
+    background:#0077b5;
+      padding:6px 10px 12px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 28px ;
+   }
+  
+ 
+ 
+  
+  .cont{
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    border: none;
+  }
+  .you{
+    font-weight:500;
+    color: #444;
+    font-size:15px
+  }
+  
+ 
+ 
+  .foote{
+    padding-top: 100px;
+  }
+
+
+  @media screen and (max-width: 800px){
+  .need1,.ad1{
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .start{
+    font-size: 28px;
+ 
+ }
+ .about2{
+  margin-top: 20px;
+ }
+  .cont1,.hav,.about1{
+  
+    text-align: center;
+  }
+  .having,.let{
+    font-size: 33px;
+    line-height: 45px;
+    font-weight:600;
+  
+}
+.ip{
+  width:100%;
+}
+
+
+  }

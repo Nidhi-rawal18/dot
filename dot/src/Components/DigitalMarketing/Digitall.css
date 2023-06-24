@@ -1,0 +1,114 @@
+#body{
+    font-family: Quicksand;
+}
+.digimag{
+    max-width:100%;
+    height:auto;
+    margin-top:90px;
+}
+.gettouc{
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    color: #202020;
+
+}
+.bestresu{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    color: #202020;
+    margin-top: 45px;
+}
+.comdimark{
+    font-size: 35px;
+    line-height:0.1em;
+    color: rgb(0, 217, 166);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.inptu{
+    width:100%;
+    height: 7vh;
+    font-size: 18px;
+    border: solid 1px #bbb;
+}
+.texareare{
+    width:100%;
+    font-size: 18px;
+    border: solid 1px #bbb;
+}
+.subtm{
+    background-color:#3D3D3D;
+    color:#FFFFFF;
+    border:none;
+    padding:13px;
+    width:25%;
+    font-weight:600;
+    font-size:16px
+}
+.wcdms{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    color: #202020;
+    margin-top: 80px;
+}
+.teyb{
+    font-size: 35px;
+    line-height: 76px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(0, 217, 166);
+}
+.advantag{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    color: #202020;
+    margin-top: 80px;
+}
+.ticktiii{
+    color: rgb(0, 217, 166);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .digimag{
+        max-width:100%;
+    height:18vh;
+    margin-top:60px
+    }
+    .bestresu{
+        font-size: 33px;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .comdimark{
+        font-size: 33px;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .wcdms,.teyb{
+        font-size: 33px;
+        line-height: 45px;
+        text-align: center;
+
+    }
+    .advantag{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .ticktext{
+        font-size: 13px;
+    }
+}

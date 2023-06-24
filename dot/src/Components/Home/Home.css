@@ -1,18 +1,280 @@
 #body{
        font-family: Quicksand;
 }
-.card{
+.web{
        box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-       border:'none'
+       border:none;
+     width:100%;
+       height:auto
 }
-.card:hover{
+
+.web:hover{
+       color: #ffffff;
        background-image:linear-gradient(271deg, rgb(0, 217, 166)0%, rgb(155, 225, 93)100%);
        cursor: pointer;
        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75)
-}
-.btn{
-       background-image:linear-gradient(271deg, rgb(0, 217, 166)0%, rgb(155, 225, 93)100%);
-       box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75)
+
 }
 
+.btn{
+       background-image:linear-gradient(271deg, rgb(0, 217, 166)0%, rgb(155, 225, 93)100%);
+       box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+       border-radius:25px;
+       padding:15px 45px;
+       font-size:13px;
+       color:#eee;
+
+}
+
+.wedel{
+       font-size: 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    color: var(--e-global-color-accent );
+}
+.multi{
+       font-size: 55px;
+       font-weight: 600;
+       line-height: 76px;
+       color: rgb(0, 217, 166);
+}
+.dotl{
+       color:'#444';
+       font-size:'15px'
+}
+.mobi{
+       color:#8ACCED;
+       font-size:60px
+}
+.volu{
+       color:rgb(0, 217, 166);
+       font-size:65px
+}
+.imre{
+       color:rgb(0, 217, 166);
+       font-size:60px
+}
+.webapp{
+       font-size: 29px;
+       font-weight: 500;
+       line-height: 36px;
+       color: #202020;
+}
+.omisi{
+       color:  #202020;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.stair{
+       background-color:#F9F9F9;
+       height:100vh
+}
+.homein{
+       width:95%;
+       height:440px;
+       border-radius:15px;
+       margin-top:80px
+}
+.fiare{
+       font-size:55px;
+       font-weight:600
+}
+.fiatur{
+       font-size:55px;
+       font-weight:600;
+       color:rgb(0 166 127)
+}
+.wecte{
+       font-size:50px;
+       font-weight:600;
+       color:#202020
+}
+.wedowedo{
+       font-size:50px;
+       font-weight: 600;
+       color:rgb(0, 217, 166)
+}
+.counti{
+       color: #ffffff;
+     
+       font-size: 130px;
+       font-weight: 400;
+       line-height: 163px;
+}
+.counting{
+       color: #ffffff;
+     
+       font-size: 45px;
+       font-weight: 400;
+       line-height: 56px;
+}
+.pre{
+       box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+       border:none;
+       background-image:linear-gradient(271deg, rgb(0, 217, 166)0%, rgb(155, 225, 93)100%);
+       width: 100%;
+}
+.pree{
+       box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+       border:none;
+       width: 100%;
+      
+
+}
+.project{
+       font-size: 22px;
+       font-weight: 600;
+       color: rgb(255 255 255 / 79%)
+}
+.tickti{
+       color: rgb(0 166 127);
+}
+.bord{
+       border-left:1px solid;
+       color: #eee;
+}
+.workin{
+       position: relative;
+       text-align: center;
+      color: white;
+      
+}
+.past{
+       color: #F9F9F9;
+       font-family: "Nunito", Sans-serif;
+       font-size: 27px;
+       font-weight: 300;
+       font-style: italic;
+       line-height: 45px;
+}
+.imrou{
+       width: 15%;
+       height: 15%;
+      border-radius: 50%;
+}
+.ganika{
+       font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: rgb(0, 217, 166);
+}
+.client{
+       font-family: "Nunito", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    color: rgba(255,255,255,0.8);
+}
+.qout{
+       font-family: "Rufina", Sans-serif;
+    font-size: 75px;
+    line-height: 120px;
+    color:rgb(0, 217, 166);
+}
+.onlne{
+       font-size: 55px;
+       font-weight: 600;
+       line-height: 1.5em;
+       color: #202020;
+}
+.jou{
+      
+              font-size: 55px;
+              line-height: 76px;
+              font-weight: 600;
+              color: rgb(0, 217, 166);
+}
+.ohc{
+       margin-top: 280px;
+}
+.dotimag{
+       max-width:100%;
+       height:auto;
+       margin-top: 40px;
+}
+
+@media screen and  (max-width: 800px){
+
+
+.wedel,.multi{
+       font-size: 33px;
+    line-height: 45px;
+    font-weight:600;
+    text-align: center
+}
+.dotl{
+       text-align: center;
+}
+.btn{
+       margin: 5px 0px 0px 0px;
+       text-align: center;
+}
+.web{
+       width: 100%;
+       height: auto;
+       margin-top: 50px;
+}
+.fire{
+       text-align: center;
+}
+.fiare,.fiatur,.wecte,.wedowedo,.jou,.onlne{
+       font-size: 33px;
+    line-height: 45px;
+  
+}
+.btn7{
+       justify-content: center;
+}
+.pre,.pree{
+       width: 100%;
+       height: auto;
+       margin-top: 50px;
+}
+.counti{
+       font-size: 80px;
+       line-height: 100px;
+
+}
+.project{
+       font-size: 18px;
+       line-height: 24px;
+}
+.counting{
+       font-size: 40px;
+       line-height: 100px;
+       
+}
+.bord{
+       border-left: none;
+    
+}
+.qout,.ganika{
+       font-size: 12px;
+       line-height: 24px;
+}
+.client{
+       font-size: 8px;
+       line-height: 0px
+}
+.past{
+       font-size: 8px;
+       line-height: 10px;
+}
+.imrou{
+       width: 10%;
+       height: 10%;
+      border-radius: 50%;
+}
+.onjo{
+       text-align: center;
+}
+.dotimag{
+       max-width:100%;
+       height:auto;
+       margin-top: 50px;
+}
+
+}
 

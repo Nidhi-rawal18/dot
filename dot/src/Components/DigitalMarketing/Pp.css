@@ -1,0 +1,77 @@
+body{
+    font-family: 'Quicksand'
+}
+.percl{
+    font-size:40px;
+    font-weight:600;
+    color:#202020
+}
+.jaiser{
+    font-size:40px;
+    font-weight:600;
+    color:#00d9a6
+}
+.pks{
+    text-align: center;
+}
+.percli{
+    font-size:40px;
+    font-weight:600;
+    color:#202020
+}
+.perse{
+    font-size:40px;
+    font-weight:600;
+    color:#00d9a6
+}
+.carqui{
+    height:auto;
+    width:100%;
+    border:1px solid;
+    border-color: #000;
+    border-radius: 0%;
+
+}
+.quick{
+    font-size:40px;
+    font-weight:600;
+    color:#202020
+}
+.quick10{
+    font-size:33px;
+    font-weight:600;
+    color:#202020
+}
+.ppcimag{
+    max-width:100%;
+    height:auto;
+    margin-top:90px
+}
+@media screen and (max-width: 800px){
+    .percl,.jaiser,.percli{
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .perse{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .pay,.kps{
+        text-align: center
+    }
+    .quick{
+        font-size: 33px;
+        line-height: 45px;
+        text-align: center
+    }
+    .carqui{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ppcimag{
+        max-width:100%;
+        height:15vh;
+        margin-top:60px
+    }
+   
+}

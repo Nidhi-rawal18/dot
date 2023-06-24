@@ -1,0 +1,36 @@
+#body{
+    font-family: Quicksand;
+}
+.someex{
+    font-weight:600;
+    font-size:55px;
+    line-height: 1em;
+    color:#202020;
+}
+.pastt{
+    font-weight:600;
+    font-size:55px;
+    color:#202020;
+    line-height: 1em;
+}
+.procss{
+    font-weight:600;
+    font-size:55px;
+    color:rgb(0, 217, 166);
+    line-height: 1em;
+}
+
+
+
+
+@media screen and  (max-width: 800px){
+    .someex,.pastt{
+        font-size: 33px;
+    line-height: 45px;
+    text-align: center;
+    }
+    .procss{
+        font-size: 33px;
+    line-height: 45px;
+    }
+}

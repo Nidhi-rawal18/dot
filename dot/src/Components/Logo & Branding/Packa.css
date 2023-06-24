@@ -1,0 +1,42 @@
+#body{
+    font-family: Quicksand;
+}
+.packa{
+    font-size: 40px;
+    font-weight: 600;
+    color: #202020;
+    margin-top: 40px;
+}
+.packing{
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    border:none;
+    width:100%;
+    height:auto
+}
+.packing:hover{
+    color:white;
+       background-image:linear-gradient(271deg, rgb(0, 217, 166)0%, rgb(155, 225, 93)100%);
+       cursor: pointer;
+       box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75)
+}
+.packimag{
+    max-width:100%;
+    height:auto;
+    margin-top:95px
+}
+
+
+@media screen and (max-width: 800px){
+    .packa{
+        font-size: 33px;
+        line-height: 45px;
+     text-align: center}
+     .packing{
+        margin-bottom: 40px;
+     }
+     .packimag{
+        max-width:100%;
+        height:15vh;
+        margin-top:60px
+    }
+}

@@ -1,0 +1,65 @@
+body{
+  font-family: "Quicksand";
+}
+.creat{
+
+    font-size: 50px;
+   color: #00d9a6;
+   font-weight: 600;
+
+}
+.revol{
+ 
+  font-size: 40px;
+    font-weight: 600;
+    line-height: 76px;
+}
+.abt{
+  position: relative;
+   text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dotli{
+  width:95%;
+  height:440px;
+  border-radius:15px
+}
+.whatdo{
+  color:'#202020';
+  font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4em;
+}
+.ghijkl{
+  margin-top:120px
+}
+
+@media screen and (max-width: 800px){
+  .revolve,.whatdo{
+    text-align: center;
+  }
+  .whatdo{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .revol,.creat{
+    font-size: 33px;
+    line-height: 45px;
+  
+  }
+  .dotli{
+    width: 100%;
+    height: auto;
+  }
+  .ghijkl{
+    margin-top:50px
+  }
+}

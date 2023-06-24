@@ -1,8 +1,69 @@
 .navbar{
-    box-shadow: 0 4px 15px 0 #7A7A7A
+    box-shadow: 0 4px 15px 0 #7A7A7A;
+  
 }
 .nav-link{
-    color: rgb(53, 46, 46) !important;
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
     margin: 19px ;
+    font-size: 15px;
+    font-weight:'200';
  }
- 
+.nav-link:hover{
+    color: #CCCCCC;
+}
+.dropdown-item{
+    padding: 15px 30px 10px 30px;
+    margin: 5px;
+}
+.dropdown-menu{
+    background-color: #F3F3F3;
+}
+.dropdown-item:hover{
+    background-color:#e7e2e2;
+    padding: 15px 30px 10px 30px;
+    width: 95%;
+   
+}
+.offcan{
+    border: none;
+    background: none;
+}
+.clos2{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.iput{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+   
+}
+.iput2{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background: none;
+    font-size: 30px;
+    color: #707070;
+}
+.ipgrou{
+    margin-top: 200px;
+    width: 70%;
+    margin-left: 200px;
+
+}
+
+@media screen and  (max-width: 800px){
+    .ipgrou{
+        width: 80%; 
+        margin-top: 200px;
+        margin-left: 30px;
+    
+    }
+}
+
+   
+    

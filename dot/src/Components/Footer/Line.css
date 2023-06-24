@@ -1,0 +1,11 @@
+.border{
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+    border-width: 15px; 
+    border-radius:'3px'
+}
+@media screen and (max-width: 800px){
+    .lie{
+       justify-content: center;
+    }
+}

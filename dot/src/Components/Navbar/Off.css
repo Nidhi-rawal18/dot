@@ -1,0 +1,55 @@
+.clo{
+    text-align: end;
+  
+}
+
+
+.wedo{
+    color: #FFFFFF;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+
+.offvas{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.wedologo{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 800px){
+    .wedologo{
+        display: block;
+    }
+    .wedo{
+        color: #FFFFFF;
+        font-family: "Tahoma", Sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 60px;
+    }
+
+    .xyz{
+        display: none;
+    }
+}
+
+
+
+
+
+
